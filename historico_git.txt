@@ -1,0 +1,11 @@
+commit e4cd8d119a289cc8265d3e19711f42c155f60f77
+Author: AntonioStorm <antonio.vale@wr.sc.usp.br>
+Date:   Mon Nov 25 15:05:11 2024 +0000
+
+    Adicionando arquivos pratica 5
+
+commit 27cd98022438b1e8c6fa46a996c294d0fbe094e5
+Author: Antônio José <137100266+AntonioStorm@users.noreply.github.com>
+Date:   Mon Nov 25 11:08:55 2024 -0300
+
+    Initial commit
