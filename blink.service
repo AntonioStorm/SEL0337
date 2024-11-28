@@ -1,12 +1,14 @@
+# Define o nome do serviço, aqueles que vão ser executados ao inicializar a raspberry e define que será realizado após alcançar o multi-user.target
 [Unit]
 Description= Blink LED
 After=multi-user.target
 
-
+# Serviços a serem realizados
 [Service]
 ExecStart=/bin/python  /home/sel/blink.py
 ExecStop=/bin/python  /home/sel/blink2.py
 user=sel
 
+# Especifica como o serviço será associado a um alvo do systemd e que o serviço será iniciado após a ativação do multi-user.target
 [Install]
 WantedBy=multi-user.target
